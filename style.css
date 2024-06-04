@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Martel Sans", sans-serif;
 }
 .main{
     height: 70vh;
@@ -18,7 +18,7 @@
     height: 70vh;
     width: 100%;
     background-color: black;
-    opacity: 0.48;
+    opacity: 0.70;
     position: absolute;
     top: 0px;
     
@@ -26,14 +26,14 @@
 .navbar{
     display: flex;
     align-items: center;
-    height: 95px;
-    max-width: 66vw;
+    height: 86px;
+    max-width: 61vw;
     justify-content: space-between;
     margin: auto;
 
 }
 .navbar img{
-
+    opacity: 0.89;
     position: relative;
     z-index: 10;
 }
@@ -42,15 +42,16 @@ position: relative;
 z-index: 10;
 border: none;
 color: white;
-background-color: red;
-border-radius: 5px; 
+background-color: #E50914;
+border-radius: 3px; 
 border: none;
 
 }
 .signinbutton{
-    padding: 5px 15px;
-    font-size: 15px;
-    font-weight: 600;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
     
 }
 .button:hover{
@@ -58,16 +59,14 @@ border: none;
 }
 .hero{
     font-family: "Martel Sans", sans-serif;
-    height: calc(100% - 95px);
+    height: calc(100% - 86px);
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    font-size: 1.55rem;
     color: white;
-    row-gap: 24px;
     text-align: center;
 
 }
@@ -79,8 +78,9 @@ border: none;
 }
 .text1{
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     text-align: center;
+    line-height: normal;
 }
 .text2 {
 
@@ -96,7 +96,7 @@ border: none;
 
 }
 .input input{
-    padding: 16px 110px 16px 10px;
+    padding: 12px 80px 16px 10px;
     background-color: black;
     color: white;
 
@@ -118,14 +118,19 @@ border: none;
 
 .inputbutton{
         position: relative;
-        padding: 11px 20px;
+        padding: 6px 15px;
         z-index: 10;
         border: none;
         color: white;
         background-color: red;
         border-radius: 5px;
-        font-size: 1.4rem;
-        font-weight: 500;
+        font-size: 22px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+}
+.inputbutton svg{
+    padding-bottom: 5px;
 }
 
 .inputbutton i{
@@ -310,7 +315,7 @@ justify-content: center;
    }
 
    .input input{
-    padding: 16px 200px 16px 10px;
+    padding: 14px 110px 14px 10px;
     background-color: black;
     color: white;
 
